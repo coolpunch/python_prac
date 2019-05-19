@@ -1,0 +1,8 @@
+hello this is a second commit
+thanks
+git reset head s1 
+this will unstage the changes that are made in the file and will reset it to the point that we began 
+now the next task will be to bring back the previous file that is readme
+retrying the merge process again... this file has been edited in start branch
+tryin the stash feature in git
+this is the second time that i am trying stash
