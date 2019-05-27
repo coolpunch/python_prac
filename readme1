@@ -1,9 +1,0 @@
-hello this is a second commit
-thanks
-git reset head s1 
-this will unstage the changes that are made in the file and will reset it to the point that we began 
-now the next task will be to bring back the previous file that is readme
-this is the change that iam doing in the start1 branch
-trying to learn merge again. this file has been edited in start1 branch
-modifying this file to learn git remote
-
