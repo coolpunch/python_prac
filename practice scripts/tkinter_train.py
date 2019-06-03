@@ -51,7 +51,7 @@ c.grid(columnspan = 1)
 
 root.mainloop()
 """
-
+"""
 root = Tk()
 
 def print_name(event):
@@ -61,3 +61,19 @@ b1 = Button(root ,text="print a random text")
 b1.bind('<Button-1>',print_name)
 b1.pack()
 root.mainloop()
+"""
+root = Tk()
+def left_click(event):
+    print("i just pressed the left click")
+def middle_click(event):
+    print("i just clicked the middle button")
+def right_click(event):
+    print("i just clicked the right click")
+
+frame =  Frame(root,width=300,height=300)
+frame.bind('<Button-1>',left_click)
+frame.bind('<Button-2>',middle_click)
+frame.bind('<Button-3>',right_click)
+frame.pack()
+root.mainloop()
+
