@@ -62,6 +62,7 @@ b1.bind('<Button-1>',print_name)
 b1.pack()
 root.mainloop()
 """
+"""
 root = Tk()
 def left_click(event):
     print("i just pressed the left click")
@@ -76,4 +77,20 @@ frame.bind('<Button-2>',middle_click)
 frame.bind('<Button-3>',right_click)
 frame.pack()
 root.mainloop()
+"""
 
+class Bind_but:
+    def __init__(self,master):
+        frame = Frame(master)
+        frame.pack()
+        self.print_b = Button(frame,text = "print message", command = self.Printmsg)
+        self.print_b.pack(side= LEFT)
+        
+    def Printmsg(self):
+        print("working on tkinter::")
+    
+root = Tk()
+b = Bind_but(root)
+root.mainloop()
+
+        
